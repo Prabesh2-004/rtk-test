@@ -63,7 +63,6 @@ const Home = () => {
             key={index}
             className="max-w-[80%] relative flex w-full gap-10 items-center p-5 border rounded-2xl"
           >
-            <p>{index}</p>
             <input
               type="checkbox"
               className="w-5 h-5 cursor-pointer accent-blue-600"
