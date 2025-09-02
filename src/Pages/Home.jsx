@@ -4,20 +4,7 @@ import { Link } from "react-router";
 
 const Home = () => {
   const [visible, setVisible] = useState(false);
-  const [tododata, setTododata] = useState([
-    {
-      todo: "1",
-      description: "2",
-      date: "3",
-      time: "4",
-    },
-    {
-      todo: "1",
-      description: "2",
-      date: "3",
-      time: "4",
-    },
-  ]);
+  const [tododata, setTododata] = useState([]);
   const [formData, setFormData] = useState({
     todo: "",
     description: "",
